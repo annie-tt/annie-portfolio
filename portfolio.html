@@ -111,6 +111,29 @@ a:focus-visible, button:focus-visible { outline:3px solid var(--ring); outline-o
   .card { transition:none; }
 }
 </style>
+<style>
+  /* Định dạng lại nút primary-btn đúng chuẩn xanh dương bo góc */
+  .primary-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 12px 24px !important;
+    background-color: #1d4ed8 !important; 
+    color: white !important;               
+    text-decoration: none !important;    
+    border-radius: 9999px !important;  
+    font-weight: 600 !important; 
+    font-size: 15px !important;
+    margin-top: 16px !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .primary-btn:hover {
+    background-color: #1e40af !important; 
+    transform: translateY(-1px) !important;
+  }
+</style>
 </head>
 <body>
 <nav aria-label="Main navigation" class="nav">
